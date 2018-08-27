@@ -1,21 +1,533 @@
-<html>
-<head>
-<title>       </title>
-<style type="text/css">
+<!DOCTYPE HTML>
 <!--
-h1	{text-align:center;
-	font-family:Arial, Helvetica, Sans-Serif;
-	}
-
-p	{text-indent:20px;
-	}
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<html>
+	<head>
+		<title>Körmann Research Group</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+    	margin: 20px;
+    }
 </style>
-</head>
-<body>
-<h1>Thanks Yuji :)!</h1>
+		
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+					<li><a href="#research">Research</a><li>
+					<li><a href="#members">Group members</a></li>
+					<li><a href="#publications">Publications</a></li>
+					<li><a href="#contact">Contact</a></li>
+                    <li><a href="#dsgvo">Privacy Policy</a></li>
+				</ul>
+			</nav>
+
+		<!-- HOME -->
+			<div class="wrapper style1 first">
+				<article class="container" id="home">
+					<div class="12u 12u(mobile)">
+						<span class="image fit"><img src="images/Main-Teaser.png" alt="" /></span>
+					</div>
+					<div class="12u 12u(mobile)">
+                        <br>
+					<header>
+                    	<h1>Welcome to the Körmann Research Group</h1>
+                    <p>Welcome! The research group of Fritz Körmann, a collaboration between the Max-Planck-Institut in Düsseldorf and the Delft University of Technology, aims at the computational design and accelerated exploration of materials throughout parameter-free (ab initio) computer simulations. A main focus is currently on complex concentrated alloys (CCAs) and related concepts such as multi-principal element alloys and high entropy alloys (HEAs). Mechanical, magnetic, thermodynamic and materials properties are investigated by means of computer simulations in close collaboration with experimental and theoretical partners worldwide.</p>
+                    </header>
+                        
+					</div>
+				</article>
+			</div>
+
+        <!-- News -->
+			<div class="wrapper style3">
+				<article class="container" id="news">
+					<div class="12u 12u(mobile)">
+                    <header>
+						<h1>News from the group</h1>				
+<!--
+                    <strong>!!! Fully funded PhD position at TU Delft available!!!</strong> <a href="http://psi-k.net/jobs/phd-position-at-tu-delft-ab-initio-modelling-of-c/" target="_blank">More information</a><br>
+                    <br>
+-->
+                        <img src="images/matercharact.jpg" alt="" width=120/>
+                        <p><strong>July 2018</strong> -- (Very!) extensive review paper on ab initio for HEAs by <a href="#yuji">Yuji</a> online! Check it out <a href="https://www.sciencedirect.com/science/article/pii/S1044580318306636" target="_blank">here</a></p>
+                    <br>
+                    
+                        <img src="images/PRB-cover.jpg" alt="" width=150/>
+                        <p><strong>June 2018</strong> -- PRB on vacancy formation energies in Ni online <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.214106" target="_blank">here</a>!</p>
+                        <br>
+                    
+                        <img src="images/Main-Teaser.png" alt="" width=250/>
+                        <p><strong>June 2018</strong> -- Group website created </p>
+                        </header>
+					</div>
+				</article>
+			</div>
+        
+		<!-- RESEARCH -->
+			<div class="wrapper style2">
+				<article id="research">
+					<header>
+						<h1>Selected recent research highlights</h1>
+<!--						<p>Here you can find an overview about recent research highlights</p>-->
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="6u 12u(mobile)">
+								<section class="box style1">
+									<a href="https://www.sciencedirect.com/science/article/pii/S1359645417305840" class="image featured"><img src="images/zhiming-acta.jpg" alt="" /></a>
+									<h3>Ab initio assisted design of quinary dual-phase high-entropy alloys with transformation-induced plasticity</h3>
+									<p>We introduce a new class of high-entropy alloys (HEAs), i.e., quinary (five-component) dual-phase (DP) HEAs revealing transformation-induced plasticity (TRIP), designed by using a quantum mechanically based and experimentally validated approach. Ab initio simulations of thermodynamic phase stabilities of Co20Cr20Fe40-xMn20Nix (x = 0–20 at. %) HEAs were performed to screen for promising compositions showing the TRIP-DP effect. The theoretical predictions reveal several promising alloys, which have been cast and systematically characterized with respect to their room temperature phase constituents, microstructures, element distributions and compositional homogeneity, tensile properties and deformation mechanisms. The study demonstrates the strength of ab initio calculations to predict the behavior of multi-component HEAs on the macroscopic scale from the atomistic level. As a prototype example a non-equiatomic Co20Cr20Fe34Mn20Ni6 HEA, selected based on our ab initio simulations, reveals the TRIP-DP effect and hence exhibits higher tensile strength and strain-hardening ability compared to the corresponding equiatomic CoCrFeMnNi alloy. <br>
+                                    <strong>See original publication in <a href="https://www.sciencedirect.com/science/article/pii/S1359645417305840">Acta Mat. (2017)</a></strong></p>
+								</section>
+							</div>
+                            <div class="6u 12u(mobile)">
+								<section class="box style1">	
+                                    <a href="https://www.nature.com/articles/s41524-018-0063-1" class="image featured"><img src="images/magnetic-random.jpg" alt="" /></a>
+									<h3>Phonon spectra of magnetic random solid solutions</h3>
+									<p>A first-principles-based computational tool for simulating phonons of magnetic random solid 
+                                    solutions including thermal magnetic fluctuations is developed. The method takes 
+                                    fluctuations of force constants due to magnetic excitations as well as due to chemical 
+                                    disorder into account. The developed approach correctly predicts the experimentally 
+                                    observed unusual phonon hardening of a transverse acoustic mode in Fe–Pd an Fe–Pt 
+                                    Invar alloys with increasing temperature. This peculiar behavior, which cannot be explained 
+                                    within a conventional harmonic picture, turns out to be a consequence of thermal magnetic 
+                                    fluctuations. The proposed methodology can be straightforwardly applied to a wide range of 
+                                    materials to reveal new insights into physical behaviors and to design materials through 
+                                    computation, which were not accessible so far.<br>
+                                    <strong>See original publication in <a href="https://www.nature.com/articles/s41524-018-0063-1">npj: Comp. Mat. (2018)</a></strong></p>
+								</section>
+							</div>
+							
+                        </div>
+                        <div class="row">
+                            <div class="6u 12u(mobile)">
+								<section class="box style1">
+									<a href="https://www.tandfonline.com/doi/full/10.1080/21663831.2016.1198837" class="image featured"><img src="images/long-ranged.jpg" alt="" /></a>
+									<h3>Phase stability of refractory HEAs</h3>
+									<p>We reveal that in a prototypical bcc high-entropy alloy NbMoTaW chemical interactions are long ranged and highly frustrated. We show that this is the reason that bcc solid solutions in NbMoTaW can persist to low temperatures. The ab initio-computed long-ranged interactions strongly impact characteristic thermodynamic properties and ordering temperatures. This highlights the genuine importance of taking long-ranged chemical interactions into account for accurate theoretical predictions of high-entropy alloy properties.<br>
+                                    <strong>See original publication in <a href="https://www.tandfonline.com/doi/full/10.1080/21663831.2016.1198837">Mat. Res. Lett. (2017)</a></strong></p>
+								</section>
+							</div>
+					<div class="6u 12u(mobile)">
+								<section class="box style1">
+									<a href="https://www.nature.com/articles/s41524-017-0037-8" class="image featured"><img src="images/phonon-hea2.png" alt="" /></a>
+									<h3>Phonon broadening in HEAs</h3>
+									<p>At high temperatures, materials properties are strongly affected by lattice vibrations (phonons). Phonons critically influence thermal stability, thermodynamic and elastic properties, as well as thermal conductivity. In contrast to perfect crystals and ordered alloys, the inherently present mass and force constant fluctuations in multi-component random alloys (high entropy alloys) can induce significant phonon scattering and broadening. Despite their importance, phonon scattering and broadening have so far only scarcely been investigated for high entropy alloys. We tackle this challenge from a theoretical perspective and employ ab initio calculations to systematically study the impact of force constant and mass fluctuations on the phonon spectral functions of 12 body-centered cubic random alloys, from binaries up to 5-component high entropy alloys, addressing the key question of how chemical complexity impacts phonons. <br>
+                                    <strong>See original publication in <a href="https://www.nature.com/articles/s41524-017-0037-8">npj: Comp. Mat. (2017)</a></strong></p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<h3>Would like to know more?</h3>
+						<a href="#publications" class="button big scrolly">Have a look into our publications</a>
+					</footer>
+				</article>
+			</div>
+
+		<!-- Members -->
+			<div class="wrapper style3">
+				<article id="members">
+					<header>
+						<h1>Group members</h1>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/fritz.jpg" alt="" /></a>
+									<h3><a href="#">Fritz Körmann</a></h3>
+                                    <h4>Group head</h4>
+									<p>Fritz (MPIE/TUD) is the head of the group which is a collaboration between researchers from the Max-Planck-Institut in Düsseldorf and the Materials Science and Engineering Department at TU Delft.
+                                    <br>
+                                    Email: f.h.w.kormann@tudelft.nl
+                                    <br>
+                                    <a href="https://scholar.google.de/citations?user=xL4b_PkAAAAJ&hl=en"  target="_blank">GoogleScholar</a>                       
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article id ="yuji" class="box style2">
+									<a href="#" class="image featured"><img src="images/yuji.jpg" alt="" /></a>
+									<h3><a href="#">Yuji Ikeda</a></h3>
+                                    <h4>PostDoc</h4>
+									<p>Yuji joined the group in April 2018 as a postdoctoral researcher (MPIE). He is working on phase stabilities and stacking fault energies in fcc high entropy alloys. Before joining the group Yuji worked as a senior researcher at the Kyoto university in Japan on lattice vibrations in disordered alloys.
+                                    <br>
+                                    Email: ikeda@mpie.de
+                                    <br>
+                                    <a href="https://scholar.google.com/citations?user=2m5dkBwAAAAJ&hl=en"  target="_blank">GoogleScholar</a>
+                                    </p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/biswanath.png" alt="" /></a>
+									<h3><a href="#">Biswanath Dutta</a></h3>
+                                    <h4>PostDoc</h4>
+									<p>Biswanath will join the group in September 2018 as a postdoctoral researcher (TU Delft). He currently works at the MPIE in Düsseldorf on magnetic shape memory alloys.
+                                    <br>
+                                    Email: dutta@mpie.de
+                                    <br>
+                                    <a href="https://scholar.google.de/citations?user=--QBfw0AAAAJ&hl=en"  target="_blank">GoogleScholar</a></p>
+								</article>
+							</div>
+<!--
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/prashanth.png" alt="" /></a>
+									<h3><a href="#">Prashanth Srinivasan</a></h3>
+                                    <h4>PostDoc</h4>
+									<p>Prashanth will join the group in October 2018 as a postdoctoral researcher (TU Delft). He currently finalizes his PhD thesis at TU Delft on simulations on NiTi alloys.</p>
+								</article>
+							</div>
+-->
+						</div>
+						<div class="row">
+					
+<!--
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+									<h3><a href="#">Open PhD position at TU Delft</a></h3>
+                                    <h4>PhD student</h4>
+									<p>Want to join the team as PhD student? <a href="http://psi-k.net/jobs/phd-position-at-tu-delft-ab-initio-modelling-of-c/"  target="_blank">Apply here</a></p>
+								</article>
+							</div>
+-->
+<!-- 
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+									<h3><a href="#">Sed amet ornare</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+ -->
+						</div>
+					</div>
+					<footer>
+						<p>Interested in joining the team as a master student, PhD student, PostDoc or visiting researcher?</p>
+						<a href="#contact" class="button big scrolly">Get in touch with me</a>
+					</footer>
+				</article>
+			</div>
+
+        <!-- Publications -->
+            <div class="wrapper style5">
+    <article id="publications">
+					<header>
+						<h1>Publications</h1>
+					</header>
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2018">2018</a>
+                </h4>
+            </div>
+            <div id="collapse2018" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p><b>[40] Ab initio phase stabilities and mechanical properties of multicomponent alloys: A comprehensive review for high entropy alloys and compositionally complex alloys</b>
+                    <br>Y. Ikeda, B. Grabowski, F. Körmann, 
+                    <br>Mater. Charact.  (2018),  [<a href="https://doi.org/10.1016/j.matchar.2018.06.019"  target="_blank">https://doi.org/10.1016/j.matchar.2018.06.019</a>].</p>
+                    <p><b>[39] Temperature dependence of the Gibbs energy of vacancy formation of fcc Ni</b>
+                    <br>Y. Gong, B. Grabowski, A. Glensk, F. Körmann, J. Neugebauer, R.C. Reed, 
+                    <br>Phys. Rev. B 97, 214106 (2018) [<a href="https://doi.org/10.1103/PhysRevB.97.214106"  target="_blank">https://doi.org/10.1103/PhysRevB.97.214106</a>].</p>
+                    <p><b>[38] Temperature-dependent phonon spectra of magnetic random solid solutions</b>
+                    <br>Y. Ikeda, F. Körmann, B. Dutta, A. Carreras, A. Seko, J. Neugebauer, I. Tanaka
+                    <br>npj Comput. Mater 4, 7 (2018) [<a href="https://www.nature.com/articles/s41524-018-0063-1"  target="_blank">doi:10.1038/s41524-018-0063-1</a>].</p>
+                    <p><b>[37] Impact of Co and Fe doping on the martensitic transformation and the magnetic properties in Ni-Mn-based Heusler alloys</b>
+                    <br>B. Dutta, F. Körmann, T. Hickel, J. Neugebauer
+					<br>Phys. Status Solidi B 255, 1700455 (2018) [<a href="https://doi.org/10.1002/pssb.201700455"  target="_blank">doi:10.1002/pssb.201700455</a>].</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2017">2017</a>
+                </h4>
+            </div>
+            <div id="collapse2017" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><b>[36] Operando phonon studies of the protonation mechanism in highly active hydrogen evolution reaction pentlandite catalysts</b>
+                    <br>I. Zegkinoglou, A. Zendegani, I. Sinev, S. Kunze, H. Mistry, HS. Jeon, J. Zhao, M. Hu, E.E. Alp, S. Piontek, M. Smialkowski, U-.P. Apfel, F. Körmann, J. Neugebauer, T. Hickel, B. Roldan Cuenya, 
+                    <br>J. Am. Chem. Soc. 139, 14360 (2017).</p>
+                    <p><b>[35] Phonon broadening in High Entropy Alloys </b>
+                    <br>F. Körmann, Y. Ikeda, B. Grabowski, M.H.F. Sluiter
+                    <br>npj Comput. Mater. 3, 36 (2017).</p>
+                    <p><b>[34] Ab initio assisted design of quinary dual-phase high-entropy alloys with transformation-induced plasticity</b>
+                    <br>Z. Li, F. Körmann, B. Grabowski, J. Neugebauer, D. Raabe
+                    <br>Acta Mat. 136, 262 (2017).</p>
+                    <p><b>[33] Computationally-driven engineering of sublattice ordering in a hexagonal AlHfScTiZr high entropy alloy</b>
+                    <br>L. Rogal, P. Bobrowski, F. Körmann, S. Divinski, F. Stein, B. Grabowski
+                    <br>Sci. Rep. 7, 2209 (2017).</p>
+                    <p><b>[32] Atomistic modelling-based design of novel materials</b>
+                    <br>D. Holec, L. Zhou, H. Riedl, C.M. Koller, P.H. Mayrhofer, M. Friak, M. Sob, F. Körmann, J. Neugebauer, D. Music, M.A. Hartmann, F.D. Fischer, 
+                    <br>Adv. Eng. Mater. 19, 1600688 (2017).</p>
+                    <p><b>[31] Accurate electronic free energies of the 3d, 4d, and 5d transition metals at high temperatures</b>
+                    <br>X. Zhang, B. Grabowski, F. Körmann, C. Freysoldt, J. Neugebauer,
+                    <br>Phys. Rev. B 95, 165126 (2017).</p>
+                    <p><b>[30] Long-ranged interactions in bcc NbMoTaW high-entropy alloys</b>
+                    <br>F. Körmann, A.V. Ruban, und M.F.H. Sluiter
+                    <br>Mater. Res. Lett. 5, 35 (2017).</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2016">2016</a>
+                </h4>
+            </div>
+            <div id="collapse2016" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><b>[29] Lattice Distortions in the FeCoNiCrMn High Entropy Alloy Studied by Theory and Experiment</b>
+                    <br>H.S. Oh, D. Ma, G.P. Leyson, B. Grabowski, E.S. Park, F. Körmann, D. Raabe
+                    <br>Entropy 18, 321 (2016).</p>
+                    <p><b>[28] Interplay between lattice distortions, vibrations and phase stability in NbMoTaW high entropy alloys</b>
+                    <br> F. Körmann, und M.F.H. Sluiter
+                    <br> Entropy 18, 403 (2016).</p>
+                        
+                    <p><b>[27] Strong impact of lattice vibrations on electronic and magnetic properties of paramagnetic Fe revealed by disordered local moments molecular dynamics</b>
+                    <br> B. Alling, F. Körmann, B. Grabowski, A. Glensk, I. Abrikosov, und J. Neugebauer
+                    <br>Phys. Rev. B 93, 224411 (2016).</p>
+                    
+                    <p><b>[26]	Impact of magnetic fluctuations on lattice excitations in fcc nickel</b>
+                    <br>F. Körmann, P-.W. Ma, S.L. Dudarev, und J. Neugebauer
+                    <br>J. Phys. Condens. Matter 28, 076002 (2016).</p>
+                        
+                    <p><b>[25]	, Quaternary Al-Cu-Mg-Si Q Phase: Sample Preparation, Heat Capacity Measurement and First-Principles Calculations</b>
+                    <br>A. Löffler, A. Zendegani, J. Gröbner, M. Hampl, R. Schmid-Fetzer, H. Engelhardt, M. Rettenmayr, F. Körmann, T. Hickel, und J. Neugebauer
+                    <br>J. Phase Equilib. Diff. 37, 119 (2016).</p>
+                        
+                    <p><b>[24]	Partitioning of Cr and Si between cementite and ferrite derived from first-principles thermodynamics</b>
+                    <br>H. Sawada, K. Kawakami, F. Körmann, B. Grabowski, T. Hickel, und J. Neugebauer
+                    <br>Acta Mat. 102, 241 (2016).<br></p>
+                    <p><b>[23]	Influence of magnetic excitations on the phase stability of metals and steels</b>
+                    <br>F. Körmann, T. Hickel, und J. Neugebauer
+                    <br>Curr. Opin. Solid. St. M. 20, 77 (2016).</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2015">2015</a>
+                </h4>
+            </div>
+            <div id="collapse2015" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><b>[22]	"Treasure maps" for magnetic high-entropy-alloys from theory and experiment</b>
+                    <br>F. Körmann, D. Ma, M. Lucas, D. Belyea, C. Miller, B. Grabowski, und M.H.F. Sluiter
+                    <br>Appl. Phys. Lett. 107, 142404 (2015).</p>
+                    <p><b>[21]	Ab initio thermodynamics of the CoCrFeMnNi high entropy alloy: Importance of entropy contributions beyond the configurational one</b>
+                    <br>D. Ma, B. Grabowski, F. Körmann, J. Neugebauer, und D. Raabe
+                    <br>Acta Mat. 100, 90 (2015).</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2014">2014</a>
+                </h4>
+            </div>
+            <div id="collapse2014" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><b>[20]	Temperature dependent magnon-phonon coupling in bcc Fe from theory and experiment</b>
+                    <br>F. Körmann, B. Grabowski, B. Dutta, T. Hickel, L. Mauger, B. Fultz, und J. Neugebauer
+                    <br>Phys. Rev. Lett. 113, 165503 (2014).</p>
+                    <p><b>[19]	Structural stability and thermodynamics of CrN magnetic phases from ab initio calculations and experiment</b>
+                    <br>L. Zhou, F. Körmann, D. Holec, M. Bartosik, B. Grabowski, J. Neugebauer, und P. Mayrhofer
+                    <br>Phys. Rev. B 90, 184102 (2014).</p>
+                    <p><b>[18]	Influence of the dislocation core on the glide of the edge dislocation in bcc-iron: An embedded atom method study</b>
+                    <br>S. M. H. Haghighat, J. von Pezold, C. Race, F. Körmann, M. Friák, J. Neugebauer, und D. Raabe
+                    <br>Comput. Mater. Sci. 87, 274 (2014).</p>
+                    <p><b>[17]	Spin-wave method for the total energy of paramagnetic state</b>
+                    <br>A.V. Ruban, V. Razumovskiy, und F. Körmann
+                    <br>Phys. Rev. B 89, 179901(E) (2014).</p>
+                    <p><b>[16]	Lambda transitions in materials science: Recent advances in CALPHAD and first‐principles modelling</b>
+                    <br>F. Körmann, A. Breidi, S.L. Dudarev, N. Dupin, G. Ghosh, T. Hickel, P. Korzhavyi, J. Muñoz, und I. Ohnuma
+                    <br>Phys. Status Solidi 251, 53 (2014).</p>
+                    <p><b>[15]	Reliability evaluation of thermophysical properties from first-principles calculations</b>
+                    <br> M. Palumbo, S. Fries, A. D. Corso, F. Körmann, T. Hickel, und J. Neugebauer
+                    <br>J. Phys.: Condens. Matter 26, 335401 (2014).</p>
+                </div>
+            </div>
+        </div>        
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2013">Before 2013</a>
+                </h4>
+            </div>
+            <div id="collapse2013" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p><b>[14] Thermodynamic modeling of chromium: strong and weak magnetic coupling</b>
+                    <br>F. Körmann, B. Grabowski, P. Söderlind, M. Palumbo, S. Fries, T. Hickel, und J. Neugebauer
+                    <br>J. Phys.: Condens. Matter 25, 425401 (2013).
+
+                    <p><b>[13] Atomic forces at finite magnetic temperatures: Phonons in paramagnetic iron</b>
+                    <br>F. Körmann, A. Dick, B. Grabowski, T. Hickel, und J. Neugebauer
+                    Phys. Rev. B 85, 125104 (2012).</p>
 
 
-</body>
+                    <p><b>[12] Advancing density functional theory to finite temperatures: methods and applications in steel design</b>
+                    <br>T. Hickel, B. Grabowski, F. Körmann, und J. Neugebauer
+                    <br>J. Phys.: Condens. Matter 24, 053202 (2012).</p>
+
+
+                    <p><b>[11] Role of spin quantization in determining the thermodynamic properties of magnetic transition metals</b>
+                    <br>F. Körmann, A. Dick, T. Hickel, und J. Neugebauer
+                    <br>Phys. Rev. B 83, 165114 (2011).</p>
+
+
+                    <p><b>[10] Ab initio based determination of thermodynamic properties of cementite including vibronic, magnetic, and electronic excitations</b>
+                    <br>A. Dick, F. Körmann, T. Hickel, und J. Neugebauer
+                    <br>Phys. Rev. B 84, 125101 (2011).</p>
+
+
+                    <p><b>[9]	Determining the Elasticity of Materials Employing Quantum‐mechanical Approaches: From the Electronic Ground State to the Limits of Materials Stability</b> 
+                    <br>M. Friak, T. Hickel, F. Körmann, A. Udyansky, A. Dick, J. von Pezold, D. Ma, O. Kim, W. Counts, M. Šob, T. Gebhardt, D. Music, J. Schneider, D. Raabe, und J. Neugebauer
+                    <br>Steel Res. Int. 82, 86 (2011).</p>
+
+                    <p><b>[8]	Thermodynamic properties of cementite</b>
+                    <br>B. Hallstedt, D. Djurovic, J. von Appen, R. Dronskowski, A. Dick, F. Körmann, T. Hickel, und J. Neugebauer
+                    <br>Calphad 34, 129 (2010).</p>
+
+                    <p><b>[7]	Rescaled Monte Carlo approach for magnetic systems: Ab initio thermodynamics of bcc iron</b>
+                    <br>F. Körmann, A. Dick, T. Hickel, und J. Neugebauer 
+                    <br>Phys. Rev. B 81, 134425 (2010).</p>
+
+                    <p><b>[6]	Pressure dependence of the Curie temperature in bcc iron studied by ab initio simulations</b>
+                    <br>F. Körmann, A. Dick, T. Hickel, und J. Neugebauer
+                    <br>Phys. Rev. B 79, 184406 (2009).</p>
+
+                    <p><b>[5]	Steel Design from Fully Parameter‐Free Ab Initio Computer Simulations</b>
+                    <br>T. Hickel, A. Dick, B. Grabowski, F. Körmann, und J. Neugebauer
+                    <br>Steel Res. Int. 80, 4 (2009).</p>
+
+                    <p><b>[4]	Free energy of bcc iron: Integrated ab initio derivation of vibrational, electronic, and magnetic contributions</b>
+                    <br>F. Körmann, A. Dick, B. Grabowski, B. Hallstedt, T. Hickel, und J. Neugebauer
+                    <br>Phys. Rev. B 78, 033102 (2008).</p>
+
+                    <p><b>[3]	Cu cap layer on Ni8/Cu (001): reorientation and TC-shift</b>
+                    <br>F. Körmann, J. Kienert, S. Schwieger, und W. Nolting
+                    <br>Eur. Phys. J. B 65, 499 (2008).</p>
+
+                    <p><b>[2]	Green function theory versus quantum Monte Carlo calculations for thin magnetic films</b> 
+                    <br>S. Henning, F. Körmann, J. Kienert, S. Schwieger, und W. Nolting
+                    <br>Phys. Rev. B 75, 214401 (2007).</p>
+
+                    <p><b>[1]	A new type of temperature driven reorientation transition in magnetic thin films</b>
+                    <br>F. Körmann, S. Schwieger, J. Kienert, und W. Nolting
+                    <br>Eur. Phys. J. B 53, 463 (2006).</p>
+                        
+                </div>
+            </div>
+        </div>
+        
+        
+					<footer>
+                        <center>
+						<h2>Interested in our current research activities?</h2>
+						<a href="#research" class="button big scrolly">Have a look into our recent research highlights</a>
+                        </center>
+					</footer>
+        
+    </div>
+        </article>
+</div>
+        
+
+
+		<!-- Contact -->
+			<div class="wrapper style3">
+				<article id="contact" class="container 75%">
+					<header>
+						<h2>Interested in joining the team? </h2> 
+                        <p>Please <a href="mailto:f.h.w.kormann@tudelft.nl">contact me</a> if your are interested in joining the team for a master thesis, PhD project, PostDoc or visiting researcher in our group.</p>
+					</header>
+<!--
+					<h3>PhD opening at TU Delft (deadline 31.07.18)</h3>
+                        <a href="http://psi-k.net/jobs/phd-position-at-tu-delft-ab-initio-modelling-of-c/" class="button big scrolly">Apply for PhD position  at TU Delft</a>				
+-->
+				</article>
+			</div>
+
+        <!-- DSGVO -->
+			<div class="wrapper style4">
+				<article id="dsgvo" class="container 75%">
+                        <a href="#" class="button scrolly">Top page</a>
+                        <h2>Privacy Policy</h2>
+<p>Personal data (usually referred to just as "data" below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.</p>
+<p>Per Art. 4 No. 1 of Regulation (EU) 2016/679, i.e. the General Data Protection Regulation (hereinafter referred to as the "GDPR"), "processing" refers to any operation or set of operations such as collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure by transmission, dissemination, or otherwise making available, alignment, or combination, restriction, erasure, or destruction performed on personal data, whether by automated means or not.</p>
+<p>The following privacy policy is intended to inform you in particular about the type, scope, purpose, duration, and legal basis for the processing of such data either under our own control or in conjunction with others. We also inform you below about the third-party components we use to optimize our website and improve the user experience which may result in said third parties also processing data they collect and control.</p>
+<p>Our privacy policy is structured as follows:</p>
+<p>I. Information about us as controllers of your data<br>II. The rights of users and data subjects<br>III. Information about the data processing</p>
+<h3>I. Information about us as controllers of your data</h3>
+<p>The party responsible for this website (the "controller") for purposes of data protection law is:</p>
+<p>Dr. Fritz Körmann
+<h3>II. The rights of users and data subjects</h3>
+<p>With regard to the data processing to be described in more detail below, users and data subjects have the right</p>
+<ul type="disc">
+<li>to confirmation of whether data concerning them is being processed, information about the data being processed, further information about the nature of the data processing, and copies of the data (cf. also Art. 15 GDPR);</li>
+<li>to correct or complete incorrect or incomplete data (cf. also Art. 16 GDPR);</li>
+<li>to the immediate deletion of data concerning them (cf. also Art. 17 DSGVO), or, alternatively, if further processing is necessary as stipulated in Art. 17 Para. 3 GDPR, to restrict said processing per Art. 18 GDPR;</li>
+<li>to receive copies of the data concerning them and/or provided by them and to have the same transmitted to other providers/controllers (cf. also Art. 20 GDPR);</li>
+<li>to file complaints with the supervisory authority if they believe that data concerning them is being processed by the controller in breach of data protection provisions (see also Art. 77 GDPR).</li>
+</ul>
+<p>In addition, the controller is obliged to inform all recipients to whom it discloses data of any such corrections, deletions, or restrictions placed on processing the same per Art. 16, 17 Para. 1, 18 GDPR. However, this obligation does not apply if such notification is impossible or involves a disproportionate effort. Nevertheless, users have a right to information about these recipients.</p>
+<p><strong>Likewise, under Art. 21 GDPR, users and data subjects have the right to object to the controller's future processing of their data pursuant to Art. 6 Para. 1 lit. f) GDPR. In particular, an objection to data processing for the purpose of direct advertising is permissible.</strong></p>
+<h3>III. Information about the data processing</h3>
+<p>Your data processed when using our website will be deleted or blocked as soon as the purpose for its storage ceases to apply, provided the deletion of the same is not in breach of any statutory storage obligations or unless otherwise stipulated below.</p>
+
+<p><a href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" target="_blank" rel="noopener">Model Data Protection Statement</a> for <a href="https://www.ratgeberrecht.eu/" target="_blank">Anwaltskanzlei Weiß &amp; Partner</a></p>
+
+                    <footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+    
+            
+
+        <!-- Acknowledgment -->                
+         <div class="wrapper style5">
+            <h3>Funding from the Deutsche Forschungsgemeinschaft (DFG) and the Netherlands Organisation for Scientific Research (NWO) is gratefully acknowledged</h3><br>
+            <div class="12u 12u(mobile)">
+				<img src="images/nwo_logo_en_lowres.jpg" alt="" width="500px" align="center"/><img src="images/dfg_logo_schriftzug_blau.jpg" alt="" width="500px" align="center"/>
+            </div>
+        </div>
+                    
+                    
+                    
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-	
